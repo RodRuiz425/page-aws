@@ -42,19 +42,20 @@
             <h1>American World Languages, Bienvenido al mundo de los idiomas</h1>
             <h2>SOLO ESTA SEMANA</h2>
             <p>Apoyo del 60% en todo tu curso al inscribirte!!</p>
+        </div>
+    </section>
+        <!-- PASOS BECA-->
+    <section>
+    <div class="info-list">
             <h2>Pasos para conseguir tu beca: </h2>
-            <p>Fecha limite para obtener tu beca 05/07/2019 lugares limitados</p>
-            <div class="info-list">
-                <ul>
+            <p>Fecha limite para obtener tu beca 20/07/2019 lugares limitados</p>
+            <ul>
                     <li>Conoce el idioma que deseas</li>
                     <li>Revisa el costo regular y las ventajas del apoyo del 60%</li>
                     <li>Programa una cita en el siguiente apartado para contactarte con nuestros asesores</li>
-                </ul>
-            </div>
- 
-        </div>
+            </ul>
+    </div>
     </section>
-
         <!-- SECION 1: INFO AWL-->
     <section>
         <div class="container_awl" id="id_awl">
@@ -134,7 +135,7 @@
         <div class="container_plantel-5">
             <div class="plantel_wrapper">
                 <div class="imagen_plantel">
-                    <img src="Images/_galeria" alt="Independencia" width="250px">
+                    <img src="Images/awl_independencia.jpeg" alt="Independencia" width="250px">
                 </div>
                 <div class="info_plantel">
                     <h3>Independencia</h3>
@@ -539,12 +540,12 @@
     <!-- FOOTER -->
     <footer>
         <div class="contacto-footer">
-            <h2>Llámanos</h2>
+            <h2>Llámanos: 33 22 51 22 49</h2>
             <ul>
-                <li>Chapultepec: 22 65 20 56</li>
-                <li>Tlaquepaque: 30 50 03 60</li>
-                <li>Tonalá: 11 87 11 01</li>
-                <li>Galerías: 23 06 93 00</li>
+                <li>Chapultepec</li>
+                <li>Tlaquepaque</li>
+                <li>Tonalá</li>
+                <li>Galerías</li>
             </ul>
         </div>
         <h3>&copy; American World Languages 2019</h3>

@@ -10,7 +10,6 @@ body{
         line-height: 30px;
         list-style: none;
 }
-
     /* HEAD */
 header{
     background: #596B80;
@@ -41,7 +40,6 @@ nav ul li a{
     font-weight: 500;
     color: white;
     display: block;
-    
 }
 nav ul li a:hover{
     color: darkblue;
@@ -68,11 +66,25 @@ nav ul li a:hover{
     /*Zoom al seleccionar*/
     font-size: 20px;
 }
+
+/* PASOS BECAS */
 .info-list{
-    padding: 0 5em;
+    background: white;
+    margin: 1em auto;
+    width: 70%;
+    padding: 1em 2.5em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.info-list h2{
+    font-size: 30px;
+    color:  #126EB0;
+}
+.info-list ul{
     text-align: left;
 }
-
+.info-list li:hover{
+    color: red;
+}
     /* INFO AWL */
 .container_awl{
     background: white;
@@ -103,6 +115,7 @@ video{
 .container_plantel-2,
 .container_plantel-3,
 .container_plantel-4,
+.container_plantel-5,
 .container_plantel{
     background: white;
     margin: 1em auto;
@@ -115,16 +128,18 @@ video{
 .container_plantel-2 a,
 .container_plantel-3 a,
 .container_plantel-4 a,
+.container_plantel-5 a,
 .container_plantel a{
     text-decoration: none;
-    color: black;
+    color: #126EB0;
 }
 .container_plantel-2 a:hover,
 .container_plantel-3 a:hover,
 .container_plantel-4 a:hover,
+.container_plantel-5 a:hover,
 .container_plantel a:hover{
     text-decoration: none;
-    color: #126EB0;
+    color: black;
 }
 
 
@@ -191,7 +206,7 @@ video{
     color: white;
 }
 .ins_linea:hover{
-    background: #2D4F80;
+    background: #FF3327;
 }
 
     /* CONTACTO */
@@ -304,9 +319,10 @@ video{
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
-    color: #126EB0;
+    color: white;
     display: block;
     text-align: center;
+    background: #FF3327;
 }
 .hipervinculo a:hover{
     color: #000;
@@ -381,7 +397,7 @@ footer li{
 
         /*TEXT*/
         line-height: 15px;
-        font-size: 10px;
+        font-size: 35px;
     }
     .container_info:hover {
         font-size: 10px;
