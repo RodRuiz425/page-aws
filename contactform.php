@@ -16,7 +16,7 @@
         $mail->SMTPSecure = 'ssl';
         $mail->Host = 'smtp.gmail.com';
         $mail->Port = '465';
-        $mail->isPHP();
+        $mail->isHTML();
         $mail->Username = 'american.page.manager@gmail.com';
         $mail->Password = 'aws.page.manager.170719';
         $mail->SetFrom('aws.page.manager.170719');

@@ -134,6 +134,7 @@
     </section>
     <!-- CITAS -->
     <section>
+        <!--
         <div class="cita_wrapper" id="id_citas">
             <div class="title_cita">
                 <h2>Agenda una cita</h2>
@@ -201,7 +202,11 @@
                     <div class="button_citas">
                             <button type="submit" name="submit">Enviar</button>
                     </div>
-                </form>
+                </form>-->
+                <div class="google-form">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIVIJ8k_SpmeXNeHnKkZjnnyijPZHhAuLpNfyymfAfykK7qA/viewform?embedded=true" width="400" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                </div>
+                
                 <div class="extra_info">
                     <h5>(Tome en cuenta que este horario esta sujeto a disponibilidad)</h5>
                     <p>Se enviara un correo electronico de confirmacion, disponibilidad de hora y un numero de cita</p>
