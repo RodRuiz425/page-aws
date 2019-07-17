@@ -1,0 +1,490 @@
+body{
+    background: #efefef;
+    padding: 0 auto;
+    margin: 0;
+        /* FONTS */
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 150;
+        line-height: 30px;
+        list-style: none;
+}
+
+    /* HEAD */
+header{
+    background: #596B80;
+    width: 100%;
+}
+header .logo_principal{
+    display: block;
+}
+
+    /* NAVIGATION */
+nav ul{
+    background: #126EB0;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 25px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    display: block;
+    
+}
+nav ul li a:hover{
+    color: darkblue;
+}
+
+    /* INFO BECAS */
+.container_info{
+    /* Imagen de fondo*/
+    background-image: url(../Images/world.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    transition: all 1000ms;
+
+    text-align: center;
+    padding: 1em 2.5em 3.5em;
+    width: 80%;
+    color: #efefef;
+
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.container_info:hover {
+    /*Zoom al seleccionar*/
+    font-size: 20px;
+}
+.info-list{
+    padding: 0 5em;
+    text-align: left;
+}
+
+    /* INFO AWL */
+.container_awl{
+    background: white;
+    margin: 1em auto;
+    width: 70%;
+    padding: 1em 2.5em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.container_awl h2{
+    font-size: 30px;
+    color:  #126EB0;
+}
+.container_awl ul{
+    text-align: left;
+    padding: 0 3.5em;
+}
+.container_awl ul li:hover{
+    color: #477FCC;
+}
+video{
+    width: 100%;
+    padding: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+    /* PLANTELES */
+.container_plantel-2,
+.container_plantel-3,
+.container_plantel-4,
+.container_plantel{
+    background: white;
+    margin: 1em auto;
+    width: 40%;
+    padding: 1em 2.5em;
+    text-align: left;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container_plantel-2 a,
+.container_plantel-3 a,
+.container_plantel-4 a,
+.container_plantel a{
+    text-decoration: none;
+    color: black;
+}
+.container_plantel-2 a:hover,
+.container_plantel-3 a:hover,
+.container_plantel-4 a:hover,
+.container_plantel a:hover{
+    text-decoration: none;
+    color: #126EB0;
+}
+
+
+.plantel_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+    /* CITAS */
+.cita_wrapper{
+    background: white;
+    margin: 1em auto;
+    width: 55%;
+    padding: 1em 2.5em;
+    text-align: left;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.title_cita {
+    text-align: left;
+    font-size: 20px;
+    color: #126EB0;
+}
+.cita_wrapper form{
+    display: grid;
+}
+.cita_wrapper form select,
+.cita_wrapper form input,
+.cita_wrapper form button,
+.cita_wrapper form textarea{
+    width: 100%;
+    padding: .7em;
+}
+.cita_wrapper form button{
+    font-size: 20px;
+    background: #126EB0;
+    border: none;
+    color: white;
+    padding: 1em;
+}
+.cita_wrapper form button:hover{
+    background: #2D4F80;
+}
+.extra_info{
+    text-align: center;
+}
+
+    /*INS LINEA*/
+.ins_linea{
+    /*BACKGROUND*/
+    margin: 1em auto;
+    width: 35%;
+    display: block;
+    background: #126EB0;
+    padding: 1em 1em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    
+    /*TEXT*/
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.ins_linea a{
+    text-decoration: none;
+    color: white;
+}
+.ins_linea:hover{
+    background: #2D4F80;
+}
+
+    /* CONTACTO */
+.contacto_wrapper{
+    margin: 1em auto;
+    width: 35%;
+    text-align: center;
+    background: #126EB0;
+    padding: 0 1em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+    line-height: 25px;
+}
+.contacto_wrapper .iconos_contacto i{
+    margin: 10px 0.5em;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.contacto_wrapper .iconos_contacto i:hover{
+    color: #2D4F80;
+}
+
+    /*Navegacion Cursos*/
+.cursos_wrapper{
+    /*WRAPPER*/
+    padding: 5em 1em;
+}
+
+.cursos_wrapper #info_chino,
+.cursos_wrapper #info_italiano,
+.cursos_wrapper #info_portugues,
+.cursos_wrapper #info_aleman,
+.cursos_wrapper  #info_frances,
+.cursos_wrapper #info_ingles{
+    /*GRID*/
+    display: inline-block;
+}
+
+.cursos_wrapper #info_frances a,
+.cursos_wrapper #info_portugues a,
+.cursos_wrapper #info_aleman a,
+.cursos_wrapper #info_chino a,
+.cursos_wrapper #info_italiano a,
+.cursos_wrapper #info_ingles a{
+    /*TEXT*/
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    
+    /*BACKGROUND*/
+    padding: 3em .5em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cursos_wrapper #info_frances a:hover,
+.cursos_wrapper #info_portugues a:hover,
+.cursos_wrapper #info_aleman a:hover,
+.cursos_wrapper #info_chino a:hover,
+.cursos_wrapper #info_italiano a:hover,
+.cursos_wrapper #info_ingles a:hover{
+    /*HOVER*/
+    font-size: 22px;
+    transition: 100ms;
+}
+
+
+/*BACKGROUND IMAGES*/
+.cursos_wrapper #info_frances a{
+    background-image: url(../Images/frances_image.jpg);
+}
+.cursos_wrapper #info_portugues a{
+    background-image: url(../Images/portugues_image.jpg);
+}
+.cursos_wrapper #info_aleman a{
+    background-image: url(../Images/aleman_image.jpg);
+}
+.cursos_wrapper #info_chino a{
+    background-image: url(../Images/chino_image.jpg);
+}
+.cursos_wrapper #info_italiano a{
+    background-image: url(../Images/italiano_image.jpg);
+}
+.cursos_wrapper #info_ingles a{
+    background-image: url(../Images/ingles_image.jpg);
+}
+
+    /* ESTILOS IDIOMAS INFO */
+.idiomas_info h2{
+    background: #126EB0;
+    text-align: center;
+    color: white;
+}
+
+.idiomas_info{
+    background: white;
+    margin: 1em auto;
+    width: 55%;
+    text-align: left;
+    padding: 10px 50px 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.hipervinculo a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #126EB0;
+    display: block;
+    text-align: center;
+}
+.hipervinculo a:hover{
+    color: #000;
+}
+
+.return{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.return a{
+    text-decoration: none;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #126EB0;
+    display: block;
+}
+.return a:hover{
+    color: #000;
+}
+
+.idiomas_info #ingles_info a{
+    text-align: center;
+}
+
+.idiomas_info .hipervinculo_citas{
+    text-align: center;
+}
+.idiomas_info .hipervinculo_citas:hover{
+    color: gray;
+}
+
+/* ESTILOS PARA EL FOOTER */
+footer{
+    background: #192026;
+    color: darkgray;
+    font-weight: 100;
+
+}
+footer li{
+    font-weight: 100;
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+    /* SMALL SCREENS */
+
+@media (max-width: 700px){
+    
+        /*HEADER*/
+    header .logo_principal{
+        display: block;
+    }
+
+        /* NAVIGATION */
+    nav ul li{
+        line-height: 10px;
+        padding: 0 .2em;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+        /* INFO BECAS */
+    .container_info{
+        /* Imagen de fondo*/
+        height: 25%;
+
+        /*TEXT*/
+        line-height: 15px;
+        font-size: 10px;
+    }
+    .container_info:hover {
+        font-size: 10px;
+    }
+        /* INFO AWL */
+    .container_awl{
+        padding: 1em 2.5em;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    }
+    .container_awl h2{
+        font-size: 20px;
+    }
+    .container_awl ul{
+        padding: 0 1em;
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+        header .logo_principal{
+        display: block;
+        text-align: center;
+    }
+
+        /* NAVIGATION */
+    nav ul li{
+        line-height: 10px;
+        padding: 0 .2em;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+        /* INFO BECAS */
+    .container_info{
+        /* Imagen de fondo*/
+        height: 25%;
+
+        /*TEXT*/
+        line-height: 15px;
+        font-size: 10px;
+    }
+    .container_info:hover {
+        font-size: 10px;
+    }
+
+        /* INFO AWL */
+    .container_awl{
+        padding: 1em 2.5em;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    }
+    .container_awl h2{
+        font-size: 20px;
+    }
+    .container_awl ul{
+        padding: 0 1em;
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+        
+        /* CITAS */
+    .cita_wrapper{
+        width: 70%;
+    }
+    /* CONTACTO */
+    .contacto_wrapper{
+        width: 65%;
+    }
+    .contacto_wrapper .iconos_contacto i{
+        font-size: 30px;
+    }
+
+        /*NAV CURSOS*/
+    .cursos_wrapper{
+        /*WRAPPER*/
+        padding: 5em auto;
+    }
+    .cursos_wrapper #info_chino,
+    .cursos_wrapper #info_italiano,
+    .cursos_wrapper #info_portugues,
+    .cursos_wrapper #info_aleman,
+    .cursos_wrapper  #info_frances,
+    .cursos_wrapper #info_ingles{
+        /*GRID*/
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /*IDIOMAS INFO*/
+    .idiomas_info{
+        width: 75%;
+        text-align: left;
+        padding: 5.em auto;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media(max-width: 375px){
+    .idiomas_info{
+        width: 65%;
+        text-align: left;
+        padding: .5em auto;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+        line-height: 20px;
+        font-size: 15px;
+    }
+}
