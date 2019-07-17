@@ -23,7 +23,7 @@
         $mail->SetFrom('no-reply@gmail.org');
         $mail->Subject = 'Nueva Cita';
         $mail->Body = $datosCita;
-        $mail->AddAddress($mailFrom);
+        $mail->AddAddress('rodrigoruiz425@gmail.com');
 
         $mail->Send();
         header("Location: index.php?mailsend");
