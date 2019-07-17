@@ -7,7 +7,7 @@
         $plantel = $_POST['plantel'];
         $hora = $_POST['hora'];
         $datosCita = '\n'.$name.'\n'.$phone.'\n'.$mailFrom.'\n'.$curso.'\n'.$plantel.'\n'.$hora.'\n';
-        */
+        
         
         require_once('PHPMailer/PHPMailerAutoload.php');
         $mail = new PHPMailer();
@@ -26,4 +26,5 @@
 
         $mail->Send();
         header("Location: index.php?mailsend");
+        */
 ?>

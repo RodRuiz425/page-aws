@@ -88,7 +88,7 @@
                     <h3>Tlaquepaque</h3>
                     <h4>Direccion: </h4>
                     <a href="https://www.google.com/maps/place/Blvd.+Gral.+Marcelino+Garc%C3%ADa+Barrag%C3%A1n+1685,+Cd+Universitaria,+44430+Guadalajara,+Jal./@20.6521214,-103.3267742,17z/data=!3m1!4b1!4m5!3m4!1s0x8428b23a7085ca4d:0x45e0c3dcc723cec5!8m2!3d20.6521214!4d-103.3245855" target="_blanck">
-                    Boulevard Marcelino García Barragán 1685</a>
+                    Boulevard Marcelino García Barragán 1685 (Frente a CFE)</a>
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
                     <h3>Tonala</h3>
                     <h4>Direccion: </h4>
                     <a href="https://www.google.com/maps/place/Av+R%C3%ADo+Nilo+7365-A,+Lomas+de+La+Soledad,+45403+Tonal%C3%A1,+Jal./@20.6384711,-103.2770656,17z/data=!3m1!4b1!4m5!3m4!1s0x8428b38f085d48eb:0x2daa8c39f39c0cd1!8m2!3d20.6384661!4d-103.2748769" target="_blanck">
-                    Av Rio Nilo 7365-A</a>
+                    Av Rio Nilo 7365-A (A un costado de plaza Altea)</a>
                 </div>
             </div>
         </div>
@@ -114,23 +114,36 @@
                     <h3>Chapultepec</h3>
                     <h4>Direccion: </h4>
                     <a href="https://www.google.com/maps/place/Av+Chapultepec+Sur+601,+Americana,+44190+Guadalajara,+Jal./@20.6665828,-103.3699687,17z/data=!3m1!4b1!4m5!3m4!1s0x8428ae07a8fc5f73:0xf0bd37545af66f5e!8m2!3d20.6665778!4d-103.36778" target="_blanck">
-                    Av Chapultepec Sur 601 Moderna 44190</a>
+                    Av Chapultepec Sur 601 Moderna 44190 (Entre Francia y Niños Heroes)</a>
                 </div>
             </div>
         </div>
         <div class="container_plantel-4">
             <div class="plantel_wrapper">
                 <div class="imagen_plantel">
-                    <img src="Images/cancun-sur.png" alt="Galerias" width="250px">
+                    <img src="Images/awl_galerias.jpg" alt="Galerias" width="250px">
                 </div>
                 <div class="info_plantel">
                     <h3>Galerias</h3>
                     <h4>Direccion: </h4>
                     <a href="https://www.google.com/maps/place/AMERICAN+WORLD+LANGUAGES+GALERIAS/@20.6745418,-103.4320525,17z/data=!3m1!4b1!4m5!3m4!1s0x8428aebda3558bcb:0x1a98a161e5574b4f!8m2!3d20.6745368!4d-103.4298638" target="_blanck">
-                    Rafael Sanzio #189</a>
+                    Rafael Sanzio #189 (Contra esquina del banco INBURSA)</a>
                 </div>
             </div>
-        </div>       
+        </div>
+        <div class="container_plantel-5">
+            <div class="plantel_wrapper">
+                <div class="imagen_plantel">
+                    <img src="Images/_galeria" alt="Independencia" width="250px">
+                </div>
+                <div class="info_plantel">
+                    <h3>Independencia</h3>
+                    <h4>Direccion: </h4>
+                    <a href="https://www.google.com/maps/place/Calz+Independencia+Nte+2495,+Fovissste+Estadio,+44240+Guadalajara,+Jal./@20.7103473,-103.3252858,17z/data=!3m1!4b1!4m5!3m4!1s0x8428b1ad0a3f671b:0x8faa7e65a98ceea!8m2!3d20.7103473!4d-103.3230971" target="_blanck">
+                    Calzada Independencia #2495 (A un minuto del estadio Jalisco)</a>
+                </div>
+            </div>
+        </div>   
     </section>
     <!-- CITAS -->
     <section>
