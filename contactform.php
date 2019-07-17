@@ -1,4 +1,5 @@
 <?php
+        /*
         $name = $_POST['full-name'];
         $phone = $_POST['phone-num'];
         $mailFrom = $_POST['e-mail'];
@@ -6,7 +7,7 @@
         $plantel = $_POST['plantel'];
         $hora = $_POST['hora'];
         $datosCita = '\n'.$name.'\n'.$phone.'\n'.$mailFrom.'\n'.$curso.'\n'.$plantel.'\n'.$hora.'\n';
-        
+        */
         
         require_once('PHPMailer/PHPMailerAutoload.php');
         $mail = new PHPMailer();
@@ -18,9 +19,9 @@
         $mail->isHTML();
         $mail->Username = 'american.page.manager@gmail.com';
         $mail->Password = 'aws.page.manager.170719';
-        $mail->SetFrom('no-reply@gmail.org');
+        $mail->SetFrom('aws.page.manager.170719');
         $mail->Subject = 'Nueva Cita';
-        $mail->Body = $datosCita;
+        $mail->Body = 'hello world';
         $mail->AddAddress('rodrigoruiz425@gmail.com');
 
         $mail->Send();
