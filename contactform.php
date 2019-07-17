@@ -1,6 +1,4 @@
 <?php
-    if(isset($_POST['submit'])){
-        
         $name = $_POST['full-name'];
         $phone = $_POST['phone-num'];
         $mailFrom = $_POST['e-mail'];
@@ -27,7 +25,4 @@
 
         $mail->Send();
         header("Location: index.php?mailsend");
-    }
-
-
 ?>
