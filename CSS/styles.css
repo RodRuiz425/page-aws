@@ -496,9 +496,6 @@ footer li{
         display: inline-block;
     }
     /* PLANTELES */
-    .container_plantel-2,
-    .container_plantel-3,
-    .container_plantel-4,
     .container_plantel{
         background: white;
         margin: 1em auto;
@@ -518,9 +515,6 @@ footer li{
         line-height: 20px;
         font-size: 15px;
     }
-    .container_plantel-2,
-    .container_plantel-3,
-    .container_plantel-4,
     .container_plantel{
         background: white;
         margin: 1em auto;
