@@ -196,38 +196,8 @@ video{
 }
 
     /* CITAS */
-.cita_wrapper{
-    background: white;
-    margin: 1em auto;
-    width: 55%;
-    padding: 1em 2.5em;
-    text-align: left;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-}
-.title_cita {
-    text-align: left;
-    font-size: 20px;
-    color: #126EB0;
-}
-.cita_wrapper form{
-    display: grid;
-}
-.cita_wrapper form select,
-.cita_wrapper form input,
-.cita_wrapper form button,
-.cita_wrapper form textarea{
+.google_form{
     width: 100%;
-    padding: .7em;
-}
-.cita_wrapper form button{
-    font-size: 20px;
-    background: #126EB0;
-    border: none;
-    color: white;
-    padding: 1em;
-}
-.cita_wrapper form button:hover{
-    background: #2D4F80;
 }
 .extra_info{
     text-align: center;
@@ -351,7 +321,7 @@ video{
 
     /* ESTILOS IDIOMAS INFO */
 .idiomas_info h2{
-    background: #126EB0;
+    background-image: linear-gradient(to right, #004280, #8AD0FF);
     text-align: center;
     color: white;
 }
@@ -377,7 +347,7 @@ video{
     padding: .5em 1.5em;
 }
 .hipervinculo a:hover{
-    color: #000;
+    background-image: linear-gradient(to right, #5696E8, #946AFF);
 }
 
 .return{
@@ -556,6 +526,28 @@ footer li{
         padding: 1em 2.5em;
         text-align: left;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    }
+            /*  BOTON CONSIGUE BECA */
+    .consigue_beca{
+        /*BACKGROUND*/
+        margin: .5em auto;
+        width: 65%;
+        display: block;
+        background-image: linear-gradient(to right, #FF3400, #FF5279);
+       
+        padding: 1em 1.5em;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+        border-radius: 80px;
+    
+        /*TEXT*/
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+    }
+        /* BOTON INS LINEA*/
+    .ins_linea{
+        /*BACKGROUND*/
+        width: 75%;
     }
 }
 
