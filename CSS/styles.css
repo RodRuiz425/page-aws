@@ -105,7 +105,7 @@ nav ul li a:hover{
 
 }
 .consigue_beca:hover{
-    background-image: linear-gradient(to right, #5696E8, #946AFF);
+    background-image: linear-gradient(to right, #004280, #8AD0FF);
 }
 
 /* PASOS BECAS */
@@ -132,6 +132,8 @@ nav ul li a:hover{
 .info-list li:hover{
     color: red;
 }
+
+
     /* INFO AWL */
 .container_awl{
     background: white;
@@ -159,6 +161,21 @@ video{
     text-align: center;
 }
 
+/*EXTRA INFO*/
+.info_extra_awl{
+    background-image: linear-gradient(to bottom right,#004280, #8AD0FF);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin: auto;
+    text-align: left;  
+    color: white;
+}   
+
+.container_info_awl{
+    padding: 1em 3em 1em 1em;
+}
     /* PLANTELES */
 .container_plantel-2,
 .container_plantel-3,
@@ -234,7 +251,7 @@ video{
     margin: 1em auto;
     width: 35%;
     text-align: center;
-    background: #126EB0;
+    background-image: linear-gradient(to bottom right,#004280, #8AD0FF);
     padding: 0 1em;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     color: white;
@@ -415,16 +432,22 @@ footer li{
     }
 
         /* INFO BECAS */
-    .container_info{
+    .container_info h1{
         /* Imagen de fondo*/
         height: 25%;
 
         /*TEXT*/
-        line-height: 15px;
-        font-size: 35px;
+        line-height: 30px;
+        font-size: 25px;
     }
-    .container_info:hover {
-        font-size: 10px;
+    .container_info p{
+        /*TEXT*/
+        line-height: 20px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .container_info h2{
+        font-size: 30px;
     }
         /* INFO AWL */
     .container_awl{
@@ -550,6 +573,21 @@ footer li{
         /*BACKGROUND*/
         width: 75%;
     }
+    /*EXTRA INFO*/
+    .info_extra_awl{
+        background-image: linear-gradient(to bottom right,#004280, #8AD0FF);
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+        margin: auto;
+        text-align: left;  
+        color: white;
+    }   
+    
+    .container_info_awl{
+        padding: .5em 2em 1em .5em;
+    }
 }
 
 @media(max-width: 375px){
@@ -560,6 +598,20 @@ footer li{
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
         line-height: 20px;
         font-size: 15px;
+    }
+    .container_info h1{
+        /*TEXT*/
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .container_info p{
+        /*TEXT*/
+        line-height: 20px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .container_info h2{
+        font-size: 20px;
     }
     .container_plantel{
         background: white;
