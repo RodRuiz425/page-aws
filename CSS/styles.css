@@ -12,7 +12,7 @@ body{
 }
     /* HEAD */
 header{
-    background: #596B80;
+    background-image: linear-gradient(to right, #004280, #8AD0FF);
     width: 100%;
 }
 header .logo_principal{
@@ -59,12 +59,53 @@ nav ul li a:hover{
     padding: 1em 2.5em 3.5em;
     width: 80%;
     color: #efefef;
+    font-size: 25px;
 
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+    
+}
+.container_info h2{
+    color: #B3253D;
+    /*Parpadeo del texto*/
+    animation: blinker 500ms cubic-bezier(.5, 0, 1, 1) infinite alternate; 
+}
+
+@keyframes blinker { 
+    to { 
+        opacity: 0; 
+    } 
 }
 .container_info:hover {
     /*Zoom al seleccionar*/
-    font-size: 20px;
+    font-size: 30px;
+}
+
+/* BOTON BECAS */
+
+.consigue_beca{
+    /*BACKGROUND*/
+    margin: 1em auto;
+    width: 35%;
+    display: block;
+    background-image: linear-gradient(to right, #FF3400, #FF5279);
+   
+    padding: 1em 1em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 80px;
+
+    /*TEXT*/
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.consigue_beca a{
+    text-decoration: none;
+    color: white;
+
+}
+.consigue_beca:hover{
+    background-image: linear-gradient(to right, #5696E8, #946AFF);
 }
 
 /* PASOS BECAS */
@@ -76,11 +117,16 @@ nav ul li a:hover{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 .info-list h2{
-    font-size: 30px;
+    font-size: 40px;
     color:  #126EB0;
+}
+.info-list p{
+    font-size: 25px;
+    color:  #FF3400;
 }
 .info-list ul{
     text-align: left;
+    font-size: 20px;
 }
 .info-list li:hover{
     color: red;
@@ -92,6 +138,7 @@ nav ul li a:hover{
     width: 70%;
     padding: 1em 2.5em;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    font-size: 20px;
 }
 .container_awl h2{
     font-size: 30px;
@@ -192,10 +239,11 @@ video{
     margin: 1em auto;
     width: 35%;
     display: block;
-    background: #126EB0;
+    background-image: linear-gradient(to right, #5696E8, #946AFF);
     padding: 1em 1em;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-    
+    border-radius: 80px;
+
     /*TEXT*/
     text-align: center;
     font-size: 25px;
@@ -204,9 +252,10 @@ video{
 .ins_linea a{
     text-decoration: none;
     color: white;
+
 }
 .ins_linea:hover{
-    background: #FF3327;
+    background-image: linear-gradient(to right, #FF3400, #FF5279);
 }
 
     /* CONTACTO */
@@ -219,6 +268,7 @@ video{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     color: white;
     line-height: 25px;
+    border-radius: 20px;
 }
 .contacto_wrapper .iconos_contacto i{
     margin: 10px 0.5em;
@@ -316,13 +366,15 @@ video{
 }
 
 .hipervinculo a{
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 700;
     text-decoration: none;
     color: white;
     display: block;
     text-align: center;
-    background: #FF3327;
+    background-image: linear-gradient(to right, #FF3400, #FF5279);
+    border-radius: 80px;
+    padding: .5em 1.5em;
 }
 .hipervinculo a:hover{
     color: #000;
@@ -332,6 +384,7 @@ video{
     font-size: 20px;
     font-weight: 300;
     text-align: center;
+    
 }
 .return a{
     text-decoration: none;
