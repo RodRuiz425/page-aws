@@ -222,7 +222,7 @@ video{
 }
 
     /*INS LINEA*/
-.ins_linea{
+.button_azul{
     /*BACKGROUND*/
     margin: 1em auto;
     width: 35%;
@@ -237,12 +237,12 @@ video{
     font-size: 25px;
     font-weight: 500;
 }
-.ins_linea a{
+.button_azul a{
     text-decoration: none;
     color: white;
 
 }
-.ins_linea:hover{
+.button_azul:hover{
     background-image: linear-gradient(to right, #FF3400, #FF5279);
 }
 
